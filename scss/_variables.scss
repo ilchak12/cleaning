@@ -1,0 +1,29 @@
+$fontsize: 18px;
+$font-main: 'Travels', sans-serif;
+
+$color-background: #E5E5E5;
+$color-lightgrey: #F3F6FB;
+$color-middlegrey: #E2E8F0;
+
+$color-purple: #5A30F0;
+
+$color-dark: #404040;
+$color-text-second: #636C81;
+
+$color-white: #FFFFFF;
+$color-black: #000000;
+
+@keyframes rotateAnimation {
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes slideLeft {
+	0% {
+		transform: translateX(150%) scale(1.5);
+	}
+	100% {
+		transform: none;
+	}
+}
